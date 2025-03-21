@@ -22,7 +22,7 @@ const buttonData = [
   { name: "Roundabout", multiply: 9.45 },
 ];
 
-const PopupCalculator = () => {
+const Calc = () => {
   const [selectedButton, setSelectedButton] = useState(null);
   const [inputValue, setInputValue] = useState("");
   const [result, setResult] = useState({ first: null, final: null });
@@ -109,4 +109,4 @@ const PopupCalculator = () => {
   );
 };
 
-export default PopupCalculator;
+export default Calc;
